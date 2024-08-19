@@ -1,6 +1,6 @@
 async function main() {
     try {
-        const response = await fetch("https://mercure.projectheberg.com:20220/caca");
+        const response = await fetch("http://mercure.projectheberg.com:20220/caca");
         const objects = await response.json();
         console.log(objects);
         //document.getElementById('output').textContent = JSON.stringify(objects, null, 2);
